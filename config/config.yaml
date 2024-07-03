@@ -1,0 +1,17 @@
+default: default
+environments:
+  default:
+    browser: chrome
+    url: http://example.com
+    implicit_wait: 10
+    explicit_wait: 10
+  staging:
+    browser: firefox
+    url: http://staging.example.com
+    implicit_wait: 10
+    explicit_wait: 10
+  production:
+    browser: chrome
+    url: http://production.example.com
+    implicit_wait: 10
+    explicit_wait: 10
