@@ -42,3 +42,23 @@ selenium_web_automation_framework/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
+
+### Explanation of `pytest.ini` Settings
+
+- **addopts**: Specifies additional options to pass to pytest. 
+  - `--html=reports/report.html`: Generates an HTML report.
+  - `--self-contained-html`: Embeds all assets in the HTML report.
+  - `--capture=tee-sys`: Captures stdout/stderr and shows them in real-time.
+  - `--maxfail=3`: Stops after three failures.
+
+- **log_cli**: Enables live logging to the console.
+
+- **log_cli_level**: Sets the log level for console logging.
+
+- **log_file**: Specifies the log file location.
+
+- **log_file_level**: Sets the log level for the log file.
+
+- **testpaths**: Specifies the directories to search for tests.
+
+- **markers**: Defines custom markers for categorizing tests.
