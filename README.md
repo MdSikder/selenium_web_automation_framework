@@ -1,6 +1,6 @@
 # Web Automation Framework
 
-This industry-standard web automation framework utilizes Selenium and pytest, encompassing the setup of project structure and the integration of various components, such as configuration files, logging, reporting, screenshot capture, data-driven testing (DDT), and utility functions.
+This web automation framework uses Selenium and pytest, following industry standards. It includes setup configuration, logging, detailed reports and screenshots, data-driven testing, and useful tools. It also offers improvements like better configuration management, enhanced logging, improved reporting, a structured Page Object Model (POM), integration with Continuous Integration (CI), and support for different environments.
 
 ## Project Structure
 
