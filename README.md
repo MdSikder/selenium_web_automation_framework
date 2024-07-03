@@ -2,11 +2,11 @@
 Designing a web automation testing framework using Selenium and pytest involves setting up the project structure and integrating various components like configuration files, logging, reporting, screenshot capture, data-driven testing (DDT), and utility functions. 
 
 Project Structure
-
 selenium_web_automation_framework/
 │
 ├── config/
-│   └── config.yaml
+│   ├── config.yaml
+│   └── config_reader.py
 │
 ├── logs/
 │   └── test.log
@@ -20,9 +20,14 @@ selenium_web_automation_framework/
 │   ├── __init__.py
 │   ├── base/
 │   │   └── base_driver.py
-│   └── pages/
+│   ├── pages/
+│   │   ├── __init__.py
+│   │   └── example_page.py
+│   └── utilities/
 │       ├── __init__.py
-│       └── example_page.py
+│       ├── logger.py
+│       ├── read_data.py
+│       └── capture_screenshot.py
 │
 ├── test_cases/
 │   ├── __init__.py
@@ -31,11 +36,8 @@ selenium_web_automation_framework/
 ├── TestData/
 │   └── data.xlsx
 │
-├── utilities/
-│   ├── __init__.py
-│   ├── logger.py
-│   ├── read_data.py
-│   └── config_reader.py
+├── ci/
+│   └── ci_config.yml
 │
 ├── pytest.ini
 ├── requirements.txt
