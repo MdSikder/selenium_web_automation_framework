@@ -92,11 +92,11 @@ To run the code and execute the tests in the specified environment, follow these
 
 ### Steps
 
-1. **Clone the Repository**: If you haven't already, clone the repository to your local machine.
-   ```sh
-   git clone https://your-repo-url.git
-   cd project_name
-   ```
+   1. **Clone the Repository**: If you haven't already, clone the repository to your local machine.
+      ```sh
+      git clone https://your-repo-url.git
+      cd project_name
+      ```
 
 2. **Install Dependencies**: Install the required Python packages.
    ```sh
