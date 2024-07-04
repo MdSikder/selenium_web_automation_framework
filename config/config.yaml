@@ -2,11 +2,11 @@ default: test
 environments:
   test:
     browser: chrome
-    url: https://console.kc-cp.klovercloud.io/auth/login
+    url: https://console.example/
     implicit_wait: 10
     explicit_wait: 10
   staging:
     browser: chrome
-    url: https://staging.klovercloud.io/auth/login
+    url: https://staging.example.io/
     implicit_wait: 10
     explicit_wait: 10

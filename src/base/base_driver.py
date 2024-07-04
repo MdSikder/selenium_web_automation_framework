@@ -1,4 +1,4 @@
-# Include better exception handling and dynamic driver loading.
+# Include better exception handling and dynamic driver loading..
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service

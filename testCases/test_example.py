@@ -1,3 +1,4 @@
+# example
 import pytest
 from src.pages.example_page import ExamplePage
 from src.utilities.logger import LogGen
